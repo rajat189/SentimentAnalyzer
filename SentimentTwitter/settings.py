@@ -3,7 +3,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-SECRET_KEY = ')3!!-u0$k%_^ffz+h0r&c1_0#-yh-w9hp0h-^4c7!*5!awabvz'
+SECRET_KEY = ''
 
 DEBUG = True
 
@@ -35,7 +35,7 @@ ROOT_URLCONF = 'SentimentTwitter.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'sentimentAnalyzer/templates/sentimentAnalyzer')]
+        'DIRS': [os.path.join(BASE_DIR, 'templates/sentimentAnalyzer')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
