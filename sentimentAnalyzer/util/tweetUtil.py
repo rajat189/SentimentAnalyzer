@@ -1,10 +1,10 @@
 import tweepy
 
-consumer_key = "4vbbneEPjbSF5X4YUzoC3HKKK"
-consumer_secret = "504qja1HTruv9QojzD6ittG03wtEGEzizT1ljsWT4w63LUBX2k"
+consumer_key = ""
+consumer_secret = ""
 
-access_token = "700561358727704576-tibiDsLIiJNugecJHulF88dsXiaKdiJ"
-access_token_secret = "fEdpJitOZqeBwpH31j8sCBWl7PklOCWKZeC6MX7UDvNID"
+access_token = ""
+access_token_secret = ""
 
 class tweetData():
 
